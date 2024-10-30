@@ -1,0 +1,125 @@
+@use "variables";
+
+.-walletlink-css-reset {
+    display: none !important;
+}
+
+.meta-age-modal-container {
+    height: 100vh !important;
+    max-height: 100vh !important;
+    width: 100vw !important;
+    max-width: 100vw !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 999999;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+}
+
+.meta-age-showing.meta-age-modal-container {
+    opacity: 1;
+    visibility: visible;
+}
+
+#meta-age-notice {
+    font-size: 13px;
+
+    &.red {
+        color: var(--red-color);
+    }
+
+    &.green {
+        color: var(--green-color);
+    }
+
+    &.normal {
+        color: var(--text-color);
+    }
+}
+
+.meta-age-modal {
+    color: var(--text-color);
+    position: relative;
+    width: 324px;
+
+    .meta-age-modal-title {
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .meta-age-modal-wrapper {
+        box-shadow: 0 7px 15px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+    }
+
+    .meta-age-modal-header {
+        text-align: center;
+        background-color: var(--login-btn-bg-color);
+        padding: 1.25em;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+    }
+
+    .meta-age-modal-body {
+        background-color: var(--login-modal-body-color);
+        padding: 0 30px 30px 30px;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+    }
+
+    .metaAgeLoginBtn {
+        display: block;
+        width: 100%;
+        color: #222 !important;
+        background-color: var(--login-btn-bg-color) !important;
+        margin-bottom: 1em !important;
+        padding: .5em 1em !important;
+        border: 2px solid var(--login-btn-bd-color) !important;
+        cursor: pointer;
+        border-radius: 4px !important;
+
+        &.phantomLoginButton {
+            margin-bottom: 0 !important;
+        }
+    }
+
+    .Button-label {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img {
+            width: 32px;
+            height: auto;
+            margin-right: 1em;
+        }
+    }
+
+    .LogInmeta-age-modal-signUp {
+        text-align: center;
+
+        a {
+            cursor: pointer;
+        }
+    }
+}
+
+div#walletconnect-wrapper .walletconnect-modal__base {
+    max-width: 400px;
+}
+@media screen and (max-width:500px) {
+
+    .meta-age-modal [data-wallet="coinbase"],
+    .meta-age-modal [data-wallet="phantom"] {
+        display: none;
+    }
+}

@@ -1,0 +1,201 @@
+# Copyright (C) 2022 adastracrypto.com
+# This file is distributed under the same license as the Meta Age plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Meta Age 1.0.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/meta-age\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-07-13T16:19:51+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: meta-age\n"
+
+#. Plugin Name of the plugin
+msgid "Meta Age"
+msgstr ""
+
+#. Description of the plugin
+msgid "Verify users' age with crypto wallets."
+msgstr ""
+
+#. Author of the plugin
+msgid "adastracrypto.com"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://adastracrypto.com"
+msgstr ""
+
+#: admin/class-plugin-activator.php:51
+#: admin/class-plugin-activator.php:83
+msgid "Plugin Activation"
+msgstr ""
+
+#: admin/class-plugin-activator.php:84
+msgid "One more minute, please accept our Terms & Conditions!"
+msgstr ""
+
+#: admin/class-plugin-activator.php:91
+msgid "I agree to the %sTerms & Conditions%s."
+msgstr ""
+
+#: admin/class-plugin-activator.php:93
+msgid "Activate"
+msgstr ""
+
+#: admin/class-plugin-activator.php:94
+msgid "Back to dashboard"
+msgstr ""
+
+#: admin/class-plugin-activator.php:137
+msgid "You must accept our Terms & Conditions!"
+msgstr ""
+
+#: admin/class-settings-page.php:57
+#: common/hooks.php:106
+#: frontend/hooks.php:25
+msgid "Sorry, you are not allowed to access this site!"
+msgstr ""
+
+#: admin/class-settings-page.php:70
+msgid "Settings"
+msgstr ""
+
+#: admin/class-settings-page.php:123
+msgid "Meta Age Settings"
+msgstr ""
+
+#: admin/class-settings-page.php:129
+msgid "Popup Delay"
+msgstr ""
+
+#: admin/class-settings-page.php:132
+msgid "Delay time before showing the verification popup, in seconds."
+msgstr ""
+
+#: admin/class-settings-page.php:136
+msgid "Minimum Age"
+msgstr ""
+
+#: admin/class-settings-page.php:139
+msgid "Minimum required age."
+msgstr ""
+
+#: admin/class-settings-page.php:143
+msgid "Cookie Duration"
+msgstr ""
+
+#: admin/class-settings-page.php:146
+msgid "How long before revalidating a verified user again, in hours. Default is 6 months (~4380 hours)."
+msgstr ""
+
+#: admin/class-settings-page.php:150
+msgid "Minimum Balance"
+msgstr ""
+
+#: admin/class-settings-page.php:153
+msgid "Minimum required balance."
+msgstr ""
+
+#: admin/class-settings-page.php:157
+msgid "Deny Message"
+msgstr ""
+
+#: admin/class-settings-page.php:160
+msgid "The message showing when verification failed."
+msgstr ""
+
+#: admin/class-terms-page.php:34
+#: admin/class-terms-page.php:35
+msgid "Meta Age Verification"
+msgstr ""
+
+#: admin/class-terms-page.php:52
+msgid "Terms of Use"
+msgstr ""
+
+#: admin/hooks.php:11
+msgid "Please enter your email address!"
+msgstr ""
+
+#: admin/hooks.php:26
+#: admin/hooks.php:44
+msgid "The plugin has been activated successfully!"
+msgstr ""
+
+#: admin/hooks.php:31
+#: admin/hooks.php:49
+msgid "Please check your email for the activation link!"
+msgstr ""
+
+#: admin/hooks.php:37
+msgid "Failed to activate the plugin. Please try again!"
+msgstr ""
+
+#: common/class-rest-api.php:94
+msgid "Public key not found!"
+msgstr ""
+
+#: common/class-rest-api.php:110
+msgid "OpenSSL extension is not installed!"
+msgstr ""
+
+#: common/class-rest-api.php:119
+msgid "Unable to setup private key!"
+msgstr ""
+
+#: common/class-rest-api.php:127
+msgid "Failed to update credentials!"
+msgstr ""
+
+#: common/hooks.php:52
+msgid "Bad request!"
+msgstr ""
+
+#: common/hooks.php:79
+msgid "Failed to connect to age server. Please try again!"
+msgstr ""
+
+#: common/hooks.php:132
+msgid "Your browser seems to block cookies. Please allow cookies and try again!"
+msgstr ""
+
+#: common/hooks.php:152
+msgid "Failed to connect to database server. Please try again!"
+msgstr ""
+
+#: frontend/hooks.php:28
+msgid "Verifying your age... Please wait!"
+msgstr ""
+
+#: frontend/templates/popup.php:5
+msgid "Age Verification"
+msgstr ""
+
+#: frontend/templates/popup.php:13
+msgid "To continue, please confirm you&#8217;re %d+<br>by connecting your browser wallet!"
+msgstr ""
+
+#: meta-age.php:32
+msgid "Meta Age Verification requires PHP version 7.2 at least!"
+msgstr ""
+
+#: meta-age.php:36
+msgid "Meta Age Verification requires WordPress 4.6.0 at least!"
+msgstr ""
+
+#: meta-age.php:40
+msgid "Failed to initialize setup wizard."
+msgstr ""
+
+#: meta-age.php:68
+msgid "Failed to connect to remote server!"
+msgstr ""
+
+#: meta-age.php:77
+msgid "Failed To Activate Meta Age Verification plugin."
+msgstr ""

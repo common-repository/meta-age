@@ -1,0 +1,16 @@
+{
+    "name": "meta-age",
+    "description": "Authenticate WordPress users with their age and crypto wallet.",
+    "type": "wordpress-plugin",
+    "require": {
+        "firebase/php-jwt": "^6.0"
+    },
+    "license": "ISC",
+    "authors": [
+        {
+            "name": "AdAstraCrypto",
+            "email": "info@adastracrypto.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
